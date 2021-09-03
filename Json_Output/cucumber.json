@@ -1,0 +1,122 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8691335205,
+              "status": "passed"
+            },
+            "match": {
+              "location": "baseStepDefinition.launchBrowser()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Login to the application with valid credentials",
+        "description": "",
+        "id": "login-test;login-to-the-application-with-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 121814298,
+              "status": "passed"
+            },
+            "match": {
+              "location": "baseStepDefinition.iCloseTheBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12414150901,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I add four different products to my wishlist",
+            "match": {
+              "location": "baseStepDefinition.iAddFourDifferentProductsToMyWishlist()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 493146671,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I view my wishlist table",
+            "match": {
+              "location": "baseStepDefinition.iViewMyWishlistTable()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12761697,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I find total four selected items in my Wishlist",
+            "match": {
+              "location": "baseStepDefinition.iFindTotalFourSelectedItemsInMyWishlist()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 86176703,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I search for lowest price product",
+            "match": {
+              "location": "baseStepDefinition.iSearchForLowestPriceProduct()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3048168257,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I am able to add the lowest price item to my cart",
+            "match": {
+              "location": "baseStepDefinition.iAmAbleToAddTheLowestPriceItemToMyCart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2370868488,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I am able to verify the item in my cart",
+            "match": {
+              "location": "baseStepDefinition.iAmAbleToVerifyTheItemInMyCart()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login Test",
+    "description": "",
+    "id": "login-test",
+    "keyword": "Feature",
+    "uri": "Wishlist.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@sampleTest"
+      }
+    ]
+  }
+]
